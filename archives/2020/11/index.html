@@ -21,23 +21,16 @@
     var CONFIG = {"hostname":"blog.haipz.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":true,"nav":null,"activeClass":"gitalk"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.json"};
   </script>
 
-  <meta name="description" content="Project: hexo-tinify-smms This is a Python script to compress your local images then upload to SMMS, and then retrieve image link from SMMS, and replace into the hexo markdown files of post&#x2F;page.">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Hexo Tinify SMMS">
-<meta property="og:url" content="https://blog.haipz.com/2025/05/21/hexo-tinify-smms/">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Haipz Blog">
+<meta property="og:url" content="https://blog.haipz.com/archives/2020/11/">
 <meta property="og:site_name" content="Haipz Blog">
-<meta property="og:description" content="Project: hexo-tinify-smms This is a Python script to compress your local images then upload to SMMS, and then retrieve image link from SMMS, and replace into the hexo markdown files of post&#x2F;page.">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2025-05-21T14:04:32.000Z">
-<meta property="article:modified_time" content="2025-05-21T15:05:19.770Z">
 <meta property="article:author" content="Haihong Lin">
-<meta property="article:tag" content="Github">
-<meta property="article:tag" content="Python">
-<meta property="article:tag" content="Hexo">
-<meta property="article:tag" content="Plugin">
+<meta property="article:tag" content="haipz, blog, hexo">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://blog.haipz.com/2025/05/21/hexo-tinify-smms/">
+<link rel="canonical" href="https://blog.haipz.com/archives/2020/11/">
 
 
 <script id="page-configurations">
@@ -45,12 +38,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : true,
+    isPost : false,
     lang   : 'en'
   };
 </script>
 
-  <title>Hexo Tinify SMMS | Haipz Blog</title>
+  <title>Archive | Haipz Blog</title>
   
 
 
@@ -177,142 +170,56 @@
         <div class="content-wrap">
           
 
-          <div class="content post posts-expand">
+          <div class="content archive">
             
 
-    
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="https://blog.haipz.com/2025/05/21/hexo-tinify-smms/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="Haihong Lin">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Haipz Blog">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          Hexo Tinify SMMS
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              
-
-              <time title="Created: 2025-05-21 22:04:32 / Modified: 23:05:19" itemprop="dateCreated datePublished" datetime="2025-05-21T22:04:32+08:00">2025-05-21</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/program/" itemprop="url" rel="index"><span itemprop="name">Program</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-        <p>Project: <a target="_blank" rel="noopener" href="https://github.com/haipz/hexo-tinify-smms">hexo-tinify-smms</a></p>
-<p>This is a Python script to compress your local images then upload to SMMS, and then retrieve image link from SMMS, and replace into the hexo markdown files of post&#x2F;page.</p>
-<p>It supports to cache image MD5 hash to <code>images.db</code> with JSON format, to save the API usage.</p>
-<p>This works perfertly to <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo">hexo</a> and <a target="_blank" rel="noopener" href="https://github.com/next-theme/hexo-theme-next">hexo-theme-next</a>.</p>
-<span id="more"></span>
-
-<h1 id="How-to-deploy"><a href="#How-to-deploy" class="headerlink" title="How to deploy"></a>How to deploy</h1><p>Clone this repository to <code>hexo</code> root folder. </p>
-<h1 id="How-to-use"><a href="#How-to-use" class="headerlink" title="How to use"></a>How to use</h1><ol>
-<li>Please go to <a target="_blank" rel="noopener" href="https://sm.ms/">SMMS</a>, register and login.</li>
-<li>Go to <a target="_blank" rel="noopener" href="https://sm.ms/home/apitoken">SMMS -&gt; User -&gt; Dashboard -&gt; API Token</a> to get your SMMS API key.</li>
-<li>Go to <a target="_blank" rel="noopener" href="https://tinypng.com/developers">Tinify -&gt; Developer API</a>, enter your name and email address, then you will receive a mail contains Tinify API key.</li>
-<li>Put your SMMS API key and Tinify API key into that script.</li>
-<li>Modify <code>hexo_source_dir</code> to your hexo source folder absolute path.</li>
-<li>Modify <code>next_source_dir</code> to your hexo theme source folder absolute path.</li>
-<li>Run the script with Python.</li>
-</ol>
-<h1 id="Python-references"><a href="#Python-references" class="headerlink" title="Python references"></a>Python references</h1><ul>
-<li>python3.x</li>
-<li>tinify</li>
-<li>requests</li>
-<li>hashlib</li>
-<li>json</li>
-</ul>
-<h1 id="Free-volume"><a href="#Free-volume" class="headerlink" title="Free volume"></a>Free volume</h1><ul>
-<li>SMMS: 5GB disk</li>
-<li>Tinify: 500 images per month</li>
-</ul>
-<h1 id="Note"><a href="#Note" class="headerlink" title="Note"></a>Note</h1><p>You could use the <code>deploy.sh</code> to make it easier for deployment.</p>
-<p>If you are not using <code>pm2</code> to manage your <code>hexo</code> job, please remove <code>pm2 restart hexo.js</code> from <code>deploy.sh</code>.</p>
-
-    </div>
-
-    
-    
-    
-        <div class="reward-container">
-  <div></div>
-  <button onclick="var qr = document.getElementById('qr'); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
-    Donate
-  </button>
-  <div id="qr" style="display: none;">
-      
-      <div style="display: inline-block;">
-        <img src="/images/wechatpay.jpg" alt="Haihong Lin WeChat Pay">
-        <p>WeChat Pay</p>
+  
+  <div class="post-block">
+    <div class="posts-collapse">
+      <div class="collection-title">
+        <span class="collection-header">Um..! 2 posts in total. Keep on posting.</span>
       </div>
 
-  </div>
-</div>
-
-
-      <footer class="post-footer">
-          <div class="post-tags">
-              <a href="/tags/github/" rel="tag"># Github</a>
-              <a href="/tags/python/" rel="tag"># Python</a>
-              <a href="/tags/hexo/" rel="tag"># Hexo</a>
-              <a href="/tags/plugin/" rel="tag"># Plugin</a>
-          </div>
-
-        
-
-
-        
-    <div class="post-nav">
-      <div class="post-nav-item">
-    <a href="/2025/05/21/hello-world/" rel="prev" title="Hello World">
-      <i class="fa fa-chevron-left"></i> Hello World
-    </a></div>
-      <div class="post-nav-item"></div>
+      
+    <div class="collection-year">
+      <span class="collection-header">2020</span>
     </div>
-      </footer>
-    
+
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <div class="post-meta">
+        <time itemprop="dateCreated"
+              datetime="2020-11-22T21:17:00+08:00"
+              content="2020-11-22">
+          11-22
+        </time>
+      </div>
+
+      <div class="post-title">
+          <a class="post-title-link" href="/2020/11/22/hello-world/" itemprop="url">
+            <span itemprop="name">Hello World</span>
+          </a>
+      </div>
+
+    </header>
   </article>
+
+
+    </div>
+  </div>
   
   
+  
+
   
 
 
 
           </div>
           
-    <div class="comments" id="gitalk-container"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -359,7 +266,6 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#How-to-deploy"><span class="nav-number">1.</span> <span class="nav-text">How to deploy</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#How-to-use"><span class="nav-number">2.</span> <span class="nav-text">How to use</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Python-references"><span class="nav-number">3.</span> <span class="nav-text">Python references</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Free-volume"><span class="nav-number">4.</span> <span class="nav-text">Free volume</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Note"><span class="nav-number">5.</span> <span class="nav-text">Note</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -555,25 +461,6 @@ window.addEventListener('pjax:success', () => {
 
   
 
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
-
-<script>
-NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
-  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
-    var gitalk = new Gitalk({
-      clientID    : 'Ov23liH6kFyWOSjUCCiT',
-      clientSecret: '54d8a53c1493c3dcf5d7c2ae48ff9cb06199e03f',
-      repo        : 'haipz-blog',
-      owner       : 'haipz',
-      admin       : ['haipz'],
-      id          : '27e8355121b84f589441eb8cd509302a',
-        language: '',
-      distractionFreeMode: true
-    });
-    gitalk.render('gitalk-container');
-  }, window.Gitalk);
-});
-</script>
 
     </div>
 </body>
